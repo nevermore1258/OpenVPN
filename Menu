@@ -380,7 +380,7 @@ if [[ -e /usr/local/bin/speedtest ]]; then
 	speedtest --share
 elif [[ ! -e /usr/local/bin/speedtest ]]; then
 	wget -O /usr/local/bin/speedtest "https://raw.githubusercontent.com/nevermore1258/OpenVPN/master/Speedtest"
-	chmod +x /usr/local/bin/Speedtest
+	chmod +x /usr/local/bin/speedtest
 	clear
 	speedtest --share
 fi
