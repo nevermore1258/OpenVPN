@@ -400,10 +400,10 @@ sed -i $IP2 /etc/squid3/squid.conf;
 	/etc/init.d/webmin restart
 
 	clear
-	echo "'
+	echo ""
 	echo "Webmin .....Install finish."
 	echo ""
-	echo "$IP:10000"
+	echo "Webmin Site : $IP:10000"
 	echo ""
 
 	;;
